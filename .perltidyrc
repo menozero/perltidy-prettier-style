@@ -1,36 +1,35 @@
 
-# -b !
--w
-# -st -se
-
-
-#! -i=2 # prettier tab-width
-# -l=78
-
+-w      # show all warnings
 # -utf8
 # -ole=unix
 # -it=2
-#-ci=2
--pt=2 # prettier?
--sbt=2 # prettier?
-# -bt=2 # prettier?
-#-tso ?
-#-nsfs # prettier?
-#! -ce # prettier (?)
-# -bar # prettier?
--wn # ?
-# -sot ?
 
+#-l=80  # Prettier print-width
+-i=2    # Prettier tab-width (default 4)
+#-ci=2  # default
 
-# TODO comments
+-fsb='prettier-ignore-start'
+-fse='prettier-ignore-end'
 
+# horizontal
+-nsfs   # no space for semicolon in for
+-tso    # tight secret operators
+-pt=2   # Prettier paren tightness (default 1)
+-sbt=2  # Prettier square bracket tightness (default 1)
+-bt=2   # Prettier brace tightness (default 1)
+-bbt=1  # Prettier block brace tightness (default 0)
+-bar    # opening brace always on right
 
-# prettier single-quote (")
-# prettier collapses multiple blank lines
-# prettier single/multiple lines
-# prettier trailing-comma (false)
-# prettier bracket-spacing (1)
+# vertical
+#-iob   # ? ignore old breakpoints
+#-vt=0  # vertical tightness
+-ce     # Prettier cuddled else
+-wn     # weld nested containers
+-sot    # stack opening tokens
+#-mbl=1 # Prettier maximum consecutive blank lines
 
-#-vt=1
-#-bbt=1 ?
-#-nolq ?
+# comments
+-nbbc   # no blanks before comments (?)
+-isbc   # indent (only) spaced block comments
+# TODO ...
+
