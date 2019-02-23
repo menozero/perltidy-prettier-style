@@ -31,5 +31,5 @@
 # comments
 -nbbc   # no blanks before comments (?)
 -isbc   # indent (only) spaced block comments
-# TODO ...
+# TODO need more tests with comments
 
