@@ -8,15 +8,15 @@
 -i=2    # Prettier tab-width (default 4)
 #-ci=2  # default
 
--fsb='prettier-ignore-start'
--fse='prettier-ignore-end'
+-fsb='# prettier-ignore-start'
+-fse='# prettier-ignore-end'
 
 # horizontal
 -nsfs   # no space for semicolon in for
 -tso    # tight secret operators
 -pt=2   # Prettier paren tightness (default 1)
 -sbt=2  # Prettier square bracket tightness (default 1)
--bt=2   # Prettier brace tightness (default 1)
+#-bt=1  # Prettier brace tightness
 -bbt=1  # Prettier block brace tightness (default 0)
 -bar    # opening brace always on right
 
