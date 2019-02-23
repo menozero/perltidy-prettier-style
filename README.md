@@ -8,7 +8,6 @@
 
 This is a simple configuration file for Perltidy (a `.perltidyrc` runcom file) that tries to mimic the default Prettier style.
 
-
 ## Rationale
 
 Everyone hates what a code formatter does to their code. And everyone loves what a code formatter does to other people code.
@@ -16,7 +15,6 @@ Everyone hates what a code formatter does to their code. And everyone loves what
 But the great formatting war is not about spaces _vs_ tabs (spaces!), nor if semi-colons should be used (duh!), not even between opening braces on the same or on a new line (same!). The war is between freedom (TIMTOWTDI!) and just one style: experiments like `gofmt` and Prettier [try](https://prettier.io/docs/en/why-prettier.html) to solve this eternal debate, removing it from programmers and leaving them with more free time for important stuff.
 
 So please, use a formatter and don't argue with your cow-workers. And if you write modern Perl code for the web and you want it to blend into the common style, try this style.
-
 
 ## Rules
 
@@ -33,10 +31,8 @@ Prettier is generally more compact than Perltidy default.
 
 In Perl we tend to add "trailing commas" (configurable, but not default, in Prettier).
 
-
 ## Usage
 
 Put the `.perltidyrc` file in your home or your project directory.
 
 Use `-b` to modify files in-place (with backup).
-
