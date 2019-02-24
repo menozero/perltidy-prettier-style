@@ -1,0 +1,3 @@
+*.tdy
+*.bak
+node_modules/
