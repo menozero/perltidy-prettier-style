@@ -1,0 +1,28 @@
+{
+  "name": "perltidy-prettier-style",
+  "version": "0.0.1",
+  "description": "A Perl::Tidy .perltidyrc with a Prettier style",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menozero/perltidy-prettier-style.git"
+  },
+  "keywords": [
+    "perl",
+    "perltidy",
+    "prettier"
+  ],
+  "author": "Giovanni Pensa",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/menozero/perltidy-prettier-style/issues"
+  },
+  "homepage": "https://github.com/menozero/perltidy-prettier-style#readme"
+}
