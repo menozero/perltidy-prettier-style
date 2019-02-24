@@ -20,12 +20,12 @@ So please, use a formatter and don't argue with your cow-workers. And if you wri
 
 Prettier is generally more compact than Perltidy default.
 
-- 80 chars lines (configurable)
-- 2 chars "tab" (configurable)
+- 80 chars lines (configurable in Prettier)
+- 2 chars "tab" (configurable in Prettier)
 - keep empty lines, but collpsed into a single one
 - one line if it fits, else multiline
 - quotes
-- semicolons (configurable)
+- semicolons (configurable in Prettier)
 - bracket spacing
 - `prettier-ignore`, or `prettier-ignore-start` and `prettier-ignore-end`.
 
