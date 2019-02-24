@@ -10,7 +10,7 @@ This is a simple configuration file for Perltidy (a `.perltidyrc` runcom file) t
 
 ## Rationale
 
-Everyone hates what a code formatter does to their code. And everyone loves what a code formatter does to other people code.
+Everyone hates what a code formatter does to their code. And everyone loves what a code formatter does to other people's code.
 
 But the great formatting war is not about spaces _vs_ tabs (spaces!), nor if semi-colons should be used (duh!), not even between opening braces on the same or on a new line (same!). The war is between freedom (TIMTOWTDI!) and just one style: experiments like `gofmt` and Prettier [try](https://prettier.io/docs/en/why-prettier.html) to solve this eternal debate, removing it from programmers and leaving them with more free time for important stuff.
 
