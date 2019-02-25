@@ -2,7 +2,7 @@
 
 [Perl Style](https://perldoc.perl.org/perlstyle.html) and later [Perl Best Practices](http://shop.oreilly.com/product/9780596001735.do) defined a Perl style. But _Tim Toady_...
 
-[Perltidy](https://github.com/perltidy/perltidy) ([website](https://perltidy.github.io/perltidy/) and [older website](http://perltidy.sourceforge.net/)), sometimes called Perl::Tidy or PerlTidy, is a formatter for Perl. It has a lot of options.
+[Perltidy](https://github.com/perltidy/perltidy) ([website](https://perltidy.github.io/perltidy/) and [older website](http://perltidy.sourceforge.net/)), sometimes called Perl::Tidy or PerlTidy, is a formatter for Perl. It has a lot of options. And [Perl::Tidy::Sweetened](https://github.com/mvgrimes/Perl-Tidy-Sweetened), a tweaked version that supports some modern syntactic sugar.
 
 [Prettier](https://github.com/prettier/prettier) ([website](https://prettier.io/)) is an opinionated code formatter for JavaScript and other web languages (TypeScript, JSON, HTML, CSS, etc.). Opinionated means that it has few options.
 
