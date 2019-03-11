@@ -22,7 +22,7 @@ Prettier is generally more compact than Perltidy default.
 
 - 80 chars lines (configurable in Prettier)
 - 2 chars "tab" (configurable in Prettier)
-- keep empty lines, but collpsed into a single one
+- keep empty lines, but collapsed into a single one
 - one line if it fits, else multiline
 - quotes
 - semicolons (configurable in Prettier)
